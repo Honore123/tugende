@@ -2,7 +2,9 @@ import { Meteor } from 'meteor/meteor';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import {User} from '../../api/User.js';
+import {Station} from '../../api/User.js';
+import {Schedules} from '../../api/User.js';
 import MainLayout from '../../ui/containers/MainLayout.jsx';
 
 Meteor.startup(() => {

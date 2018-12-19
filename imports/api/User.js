@@ -1,5 +1,7 @@
 import { Meteor } from 'meteor/meteor';
 import { Accounts } from 'meteor/accounts-base';
+import { mongo } from 'meteor/mongo';
+
 
 export const User = {
   get: function() {
@@ -26,4 +28,8 @@ export const User = {
     Accounts.createUser(opts, callback);
   }
 };
+export const Station = new Mongo.Collection('station');
+export const Schedules = new Mongo.Collection('schedules');
+export const Stationline = new Mongo.Collection('stationline');
+export const Myticket = new Mongo.Collection('myticket');
 

@@ -1,10 +1,94 @@
-/* CSS declarations go here */
-Header a.active {
-  font-weight: bold;
-  text-decoration: underline;
+body{
+	background: #001129;
 }
-Header a, #login-buttons a {
-  text-decoration: none;
-  margin-right: 10px;
-  color:inherit;
+.backnav{
+	background-color: #001b33;
+}
+.backnav2{
+	background-color: #012240;
+}
+.rowp{
+	padding: 300px 0px;
+}
+.logp{
+	padding: 70px 0px;
+}
+.servp{
+	padding-bottom: 100px;
+	background-color: #001129;
+}
+.aboutp{
+	padding-bottom: 100px;
+	background-color: #001129;
+}
+.padu{
+	padding-top: 100px;
+}
+.padi{
+	padding-top: 50px;
+}
+.padicon{
+	padding: 0 0 0 20px;
+}
+.padigo{
+	padding: 90px 0 100px 0;
+}
+.padibt{
+	margin: 94px 0 20px 0;
+}
+.padibtn{
+	margin-bottom: 117px;
+}
+.adminlog{
+	margin: 100px 0 170px 0;
+}
+.padibtn1{
+	margin: 50px 0px;
+}
+.adminbtn{
+	margin: 0 0 30px 0;
+}
+.bor{
+	background-color: #0d3dbe;
+	font-size: 18px;
+	font-weight: 500;
+	color: #3b97ff;
+	padding:10px 0px 10px 10px;
+	outline: none;
+	border: none;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+.bol{
+	background-color: #0d3dbe;
+	font-size: 18px;
+	font-weight: 500;
+	color: #3b97ff;
+	padding: 10px 3px 10px 0px;
+	border-bottom-left-radius: 25px;
+	border-top-left-radius: 25px;
+}
+.padibtn2{
+	background-color: #061533;
+	font-size: 18px;
+	font-weight: 500;
+	color: #0177fe; 
+	border-radius: 25px;
+	margin: 29px 0 0 0;
+}
+.padibtn3{
+	background-color: #0d3dbe;
+	font-size: 18px;
+	font-weight: 500;
+	color: #0177fe;
+	border-radius: 25px;
+	margin: 10px 0 42px 0;
+}
+.padibtn4{
+	background-color: #061532;
+	font-size: 18px;
+	font-weight: 500;
+	color: #0177fe;
+	border-radius: 25px;
+	margin: 50px 0 42px 0;
 }
