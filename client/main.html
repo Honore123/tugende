@@ -2,9 +2,18 @@
 	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Tugende</title>
-	<link rel="icon" href="/../public/icontu.png">
 </head>
 
 <body>
 		<div id="app"></div>
+		<script type="text/javascript">
+			var canvas = document.createElement('canvas');
+			canvas.width = 16;
+			canvas.height = 16;     
+			var link = document.createElement('link');
+			link.type = 'image/png';
+			link.rel = 'shortcut icon';
+			link.href = canvas.toDataURL("../public/icontu.png");
+			document.getElementsByTagName('head')[0].appendChild(link);
+</script>
 </body>
